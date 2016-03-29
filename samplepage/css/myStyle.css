@@ -1,0 +1,130 @@
+body {
+  background: #2d6fd2;
+  font: 250%/1.75 Lustria,Georgia;
+  text-align: center;
+  color: #fff;
+}
+
+.basicbg {
+  background-color: #0066ff;
+}
+
+.darkbg {
+  background-color: #001f4d;
+}
+
+.navsection {
+  padding: 0;
+  background: #0a2143;
+  color: #fff;
+  margin: -1.1rem 0;
+
+}
+
+.grid {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 0;
+}
+
+.grid__item {
+    font-size: 1.25rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+}
+
+.grid--center {
+    text-align: center;
+}
+
+.nav {
+  display: block;
+
+}
+
+nav {
+  align-items: center;
+  align-self: center;
+
+}
+
+a {
+  padding: 0;
+}
+
+.navsection a {
+    font-size: 150%;
+    margin: .25em 1.15em;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.content {
+  padding: 150px;
+}
+
+.content-inver {
+  background: #fff;
+  color: #0a2143;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.title{
+  font-size: 400%;
+  color: #fff;
+  -webkit-animation: .5s .25s fade backwards ease-out;
+  animation: .5s .25s fade backwards ease-out;
+
+}
+
+.parag {
+  padding: 50px;
+  color: #fff;
+  font-size: 100%;
+}
+
+.parag-inver {
+  padding: 50px;
+  color: #0a2143;
+  font-size: 100%;
+}
+
+.profile .parag {
+  padding: 0;
+  margin: 0;
+}
+
+.name
+{
+  padding: 2px;
+  font-size: 100%;
+}
+
+.profile .name {
+  padding: 2px;
+
+}
+
+.number {
+  font-size: 70%
+}
+
+.email {
+  font-size: 70%
+}
+
+@-webkit-keyframes fade{from{transform:translateY(.25em);opacity:0}}
+@keyframes fade{from{transform:translateY(.25em);opacity:0}}
