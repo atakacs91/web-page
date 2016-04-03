@@ -1,0 +1,235 @@
+.dark {
+  background: #363030;
+  color: #EBF4FA;
+}
+
+.default {
+  background: #EBF4FA;
+  color: #363030;
+  font-family: 'Raleway', sans-serif;
+}
+
+#brandtop {
+  display: table;
+}
+
+#brandtop div {
+  display: table-cell;
+  float: none;
+  vertical-align: middle;
+
+}
+
+.container-fluid {
+  padding:  50px;
+}
+
+.img-responsive {
+  min-width: 100px;
+}
+
+.brand {
+  font-size: 50px;
+}
+
+.dark-transparent {
+    background-color: rgba(54, 48, 48, 0.7);
+}
+
+.padding_1 {
+  padding: 15px;
+}
+
+.padding_2 {
+  padding: 40px;
+}
+
+.margin_1 {
+    margin: 15px 0px;
+}
+
+.nopadding {
+  padding: 0px;
+  height: 700px;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+.menu a {
+  font-size: 20px;
+  padding: 15px 15px;
+  color: inherit;
+  
+}
+
+.menu a:hover {
+  background: #EBF4FA;
+  color: #363030;
+  border-radius: 5px;
+}
+
+.menu a:visited {
+  background: #EBF4FA;
+}
+
+.linkbutton {
+  color: #EBF4FA;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+
+}
+
+.linkbutton:hover {
+  border-style: solid ;
+  border-color: #EBF4FA;
+  color: #EBF4FA;
+
+}
+
+.linkbutton:visited {
+  color: #EBF4FA;
+  border-radius: 5px;
+  font-size: 30px;
+  text-decoration-line: none;
+
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.heading {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.content {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#hidemenu {
+  display: none;
+}
+
+.carousel {
+  height: 700px;
+  overflow: hidden;
+}
+
+
+.item {
+height: 700px;
+}
+
+.item img {
+
+width: 100%;
+position: absolute;
+
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+
+}
+
+.caption {
+  position: relative;
+  top: -300px;
+  text-align: center;
+  font-size: 76px;
+  color: #fff;
+  z-index: 10;
+}
+
+.carousel-control {
+  z-index: 10;
+}
+
+.layer {
+  height: 700px;
+  top: -1000px;
+  position: relative;
+
+  z-index: 8;
+  background-color: #f2f2f2;
+  opacity: 0.2;
+}
+
+
+
+
+
+.refpic {
+  width: 400px;
+  padding-top: 40px;
+
+}
+
+.ref-content-l {
+  padding: 40px 0px 0px 150px;
+}
+
+.ref-content-r {
+  padding: 40px 150px 0px 0px;
+}
+
+.link-invert {
+  color: #363030;
+  background: #EBF4FA;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+.link-invert:active {
+  background: #EBF4FA;
+  padding: 10px;
+  color: #363030;
+}
+
+.link-invert:hover {
+  background: #363030;
+  color: #EBF4FA;
+  padding: 10px;
+  border-style: solid;
+  border-color: #EBF4FA;
+
+}
+
+div .header {
+  float: center;
+  width: 60px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .img-responsive {
+    max-width: 160px;
+  }
+
+  .brand {
+    font-size: 76px;
+  }
+
+  #hidemenu {
+    display:block;
+  }
+
+}
